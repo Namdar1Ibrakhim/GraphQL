@@ -1,0 +1,8 @@
+type Query {
+    productById(id: ID): Product
+}
+
+type Mutation {
+    deleteProduct(id: ID): Boolean
+    createProduct(dto: InputProduct): Product
+}

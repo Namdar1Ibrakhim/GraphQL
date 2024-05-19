@@ -1,0 +1,17 @@
+scalar LocalDateTime
+
+type Product {
+    id: ID
+    name: String
+    description: String
+    price: String
+    url: String
+}
+
+input InputProduct {
+    name: String
+    description: String
+    price: String
+    url: String
+}
+
